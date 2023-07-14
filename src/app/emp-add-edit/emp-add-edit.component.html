@@ -6,12 +6,12 @@
     <div class="row1">
         <mat-form-field appearance="outline">
             <mat-label>First Name</mat-label>
-            <input matInput type="name" placeholder=" Ex. Piyush" formControlName="firstName" >
+            <input matInput type="name" placeholder=" Ex. Piyush" formControlName="firstname" >
         </mat-form-field>
 
         <mat-form-field appearance="outline">
             <mat-label>Last Name</mat-label>
-            <input matInput type="lastname" placeholder=" Ex. Singh" formControlName="lastName">
+            <input matInput type="lastname" placeholder=" Ex. Singh" formControlName="lastname">
         </mat-form-field>
 
     </div>
@@ -64,7 +64,7 @@
 </div>
 
 <div mat-dialog-actions  class="butn">
-    <button mat-raised-button  class="btn btn-danger">Cancel</button>
-    <button mat-raised-button class="btn btn-primary" type="submit" >Save </button>
+    <button mat-raised-button color="warn" type="button" [mat-dialog-close]="false"  >Cancel</button>
+    <button mat-raised-button color= 'primary' type="submit" >{{data ? 'Update': 'Save'}} </button>
 </div>  
 </form>
