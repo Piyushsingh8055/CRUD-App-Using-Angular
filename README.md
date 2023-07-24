@@ -1,7 +1,9 @@
 # CRUDApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
-
+<img src=" Screenshot 2023-07-24 191235.png">
+<br>
+<img src=" Screenshot 2023-07-24 185918.png">
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
